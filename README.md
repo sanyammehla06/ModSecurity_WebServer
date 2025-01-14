@@ -1,4 +1,4 @@
-#Problem Statement
+# Problem Statement
 Part 1
 Spin up an EC2 instance and install Nginx / Apache
 Create a login form with 1 input field & a submit button
@@ -18,4 +18,10 @@ Please share deployed link of the application
 
 # ModSecurity_WebServer
 This repository demonstrates the process of creating and mitigating SQL injection vulnerabilities in a web application. The project is divided into two parts: developing an exploitable login form and securing it with ModSecurity Web Application Firewall (WAF). The deployment is done on an Ubuntu EC2 instance using Nginx or Apache as the web server.
+
+# Reference for setting up ModSecurity on Nginx Server Installed in Ubuntu EC2 Instance
+[Linode Documentation: Securing Nginx with ModSecurity](https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/)
+[Core Rule Set (CRS) Documentation](https://github.com/coreruleset/coreruleset)
+Nginx ModSecurity Tutorial | Nginx WAF(https://www.youtube.com/watch?v=5eRxOYbaIEI)
+
 
