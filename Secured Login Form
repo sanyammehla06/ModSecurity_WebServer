@@ -1,0 +1,21 @@
+<!-- ModSecurity Web Application Firewall (WAF) is configured to detect and block SQL injection attempts. -->
+<!-- Logs are generated for all detected SQL injection attempts on ModSecurity audit logs(/var/log/modsec_audit.log) for monitoring and incident response. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 2 - Safe from SQL Injection Attempt</title>
+<!-- Title of the page, indicating this form is protected against SQL injection -->
+</head>
+<body>
+<h1>Page 2 - Secure Login Form</h1>
+<!-- Header describing the purpose of this page -->
+<form method="GET" action="#">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<!-- Input field for the username -->
+<button type="submit">Login</button>
+<!-- Submit button sends the form data to the server -->
+</form>
+</body>
+</html>
